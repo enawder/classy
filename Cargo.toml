@@ -1,0 +1,22 @@
+[package]
+name = "classy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#pdftotext = { version = "0.1.5", features = ["static-poppler"] }
+anyhow = "1.0.64"
+chrono = "0.4.22"
+clap = { version = "3.2.20", features = ["derive"] }
+config = { version = "0.13.1", features = ["yaml"] }
+directories = "4.0"
+pdf = "0.7.2"
+pdf-extract = "0.6.4"
+preferences = "^1.1.0"
+poppler = "0.3.2"
+serde = { version = "1.0.144", features = ["derive"] }
+walkdir = "2"
+yaml-rust = "0.4.5"
+regex = "1.6.0"
+
+linked-hash-map = "0.5.3"
